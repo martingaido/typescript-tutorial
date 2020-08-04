@@ -1,0 +1,7 @@
+1) Install NodeJS
+2) Install Deno
+3) Install TypeScript
+4) Hello World
+5) Init a tsc project
+    $ tsc --init
+    
