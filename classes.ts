@@ -2,12 +2,17 @@
 
 class Person {
 
-    private name: string;
-    
+	// Property
+	private name: string;
+	public age!: number; // public and can be empty !
+	readonly gender!: string; // readonly and can be empty !
+
+	// Constructor
     constructor(theName: string) {
         this.name = theName;
     }
 
+	// Methods
     walk(distance: number) {
         console.log(`Hello, my name is ${this.name} and I'm walking ${distance} kilometers.`);
     }
